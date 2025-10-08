@@ -1,0 +1,73 @@
+<div class="main-content">
+<div class="sidebar">
+    <h2 class="sidebar-title">Kategoriler</h2>
+    <div class="category">
+      <button class="category-toggle">Takılar</button>
+      <ul class="subcategory-list">
+        <li class="active">Yüzük</li>
+        <li>Küpe</li>
+        <li>Kolye</li>
+        <li>Bileklik</li>
+        <li>Broş</li>
+        <li class="show-all">Tümünü Gör</li>
+      </ul>
+    </div>
+
+    <div class="category">
+      <button class="category-toggle">Seramikler</button>
+    </div>
+
+    <div class="category">
+      <button class="category-toggle">Çiniler</button>
+    </div>
+
+    <div class="section">
+      <h3>Seçenekler</h3>
+      <form class="options">
+        <label><input type="radio" name="option" checked><span class="green">İndirimdekiler</span></label><br>
+        <label><input type="radio" name="option">En Çok Satanlar</label><br>
+        <label><input type="radio" name="option"> Bizim Seçtiklerimiz</label>
+      </form>
+    </div>
+
+    <div class="section">
+      <h3>Fiyat Aralığı</h3>
+      <form class="price-range">
+        <label><input type="radio" name="price" checked>0 – 50 TL</span></label><br>
+        <label><input type="radio" name="price"> 50 – 100 TL</label><br>
+        <label><input type="radio" name="price"> 100 – 200 TL</label><br>
+        <label><input type="radio" name="price"> 200 – 300 TL</label><br>
+        <label><input type="radio" name="price"> 1000 – 1.500 TL</label>
+      </form>
+    </div>
+    
+  </div>
+<div
+<div class="product-head">
+  <p>1.765 ürün bulunmaktadır</p>
+  <div class="sort-products">
+    Ürünleri Sırala
+    <div class="sort-products-icon">
+      <!-- SVG buraya -->
+    </div>
+  </div>
+</div>
+<div class="product-content">
+<div class="product">
+  <div class="product-card">
+    <div class="product-image">
+      <!-- <img src="ürün.jpg" alt="Ürün Adı"> -->
+      <!-- veya svg -->
+      <svg></svg>
+    </div>
+    <div class="product-title">
+      <p>Ürün Başlığı Burada</p>
+    </div>
+    <div class="product-price">
+      <p>2025₺</p>
+      <span>399₺</span>
+    </div>
+  </div>
+</div>
+  </div>
+  </div>

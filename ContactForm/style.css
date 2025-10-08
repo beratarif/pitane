@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kumbh Sans";
+}
+
+.contact-section {
+  height: 1043px;
+  margin-top: 64px;
+  display: flex;
+  background-color: #feca0c;
+}
+
+.contact-container {
+  margin: 0 auto;
+}
+
+.contact-title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 50px;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #333;
+}
+
+.contact-text {
+  text-align: center;
+  font: 800;
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  gap: 20px;
+}
+
+.form-group-l,
+.form-group-r {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.form-group-r {
+  display: flex;
+  margin-left: 600px;
+  margin-top: -345px;
+}
+
+.form-group-code {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  margin-left: 585px;
+  margin-top: -345px;
+  gap: 30px;
+}
+
+.form-grid input,
+.form-grid textarea {
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: none;
+  height: 140px;
+}
+
+.name-input {
+  width: 484px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 12px;
+}
+
+.name-input::placeholder {
+  color: #111917;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.message-input {
+  width: 484px;
+  height: 250px;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 12px;
+}
+
+.message-input::placeholder {
+  color: #111917;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.eposta-input {
+  width: 484px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 12px;
+}
+
+.eposta-input::placeholder {
+  color: #111917;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.phone-input {
+  width: 484px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 12px;
+}
+
+.phone-input::placeholder {
+  color: #111917;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.code-input {
+  width: 212px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.code-input::placeholder {
+  color: #111917;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.security-code {
+  width: 240px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 12px;
+}
+
+.security-code::placeholder {
+  color: #111917;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.submit-button {
+  width: 485px;
+  height: 76px;
+  border-radius: 12px;
+  border: 0;
+  background-color: #12b76a;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 600px;
+  margin-top: -135px;
+}
+
+.form-aggrament {
+  width: 1009px;
+  height: 71px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.KVKK {
+  width: 60rem;
+  margin-top: -22px;
+}
+
+.KVKK a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contact-information {
+  margin-top: 15%;
+}
+
+.info-card {
+  display: flex;
+  margin-top: -19%;
+  padding: 10px 70px;
+}
+
+.info-card .phone-info {
+  margin-left: 30px;
+}
+
+.info-card .location-info {
+  margin-left: 30px;
+}

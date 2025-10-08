@@ -1,0 +1,755 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Kumbh Sans", Arial, sans-serif;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1920px;
+  height: 140px;
+}
+
+.topbar {
+  text-align: center;
+  background-color: #ebebeb;
+  width: 100%;
+  max-width: 1920px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links-left,
+.nav-section {
+  margin-left: 122px;
+  margin-top: 40px;
+}
+
+.logo img {
+  position: absolute;
+  left: 890px;
+  top: 80px;
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-links-left a {
+  float: left;
+  margin-left: 12px;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Kumbh Sans", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+.nav-user-actions {
+  position: absolute;
+  left: 1350px;
+  top: 70px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.nav-user-actions button {
+  background-color: transparent;
+  border: 0;
+}
+
+.language {
+  position: absolute;
+  top: 5px;
+}
+
+.separator-line {
+  position: absolute;
+  color: #fafafa;
+  width: 100%;
+  left: 0;
+}
+
+.navbar {
+  text-align: center;
+  margin-top: 108px;
+  background-color: #f1f1f1;
+}
+
+.navbar .nav-item {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+.navbar .nav-links {
+  text-decoration: none;
+  color: black;
+  font-family: "Kumbh Sans", sans-serif;
+  width: 12px;
+}
+
+.navbar .nav-links:hover {
+  width: 85px;
+  height: 85vh;
+  border-radius: 10px;
+}
+
+/* ============================
+   ✅ Responsive Media Queries
+   ============================ */
+
+@media (max-width: 1200px) {
+  .nav-links-left,
+  .nav-section {
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+
+  .logo img {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60px;
+  }
+
+  .nav-user-actions {
+    left: auto;
+    right: 30px;
+    top: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-links-left a {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .nav-links-left,
+  .nav-section {
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .topbar {
+    font-size: 14px;
+    height: 30px;
+  }
+
+  .nav-user-actions {
+    top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    height: auto;
+  }
+
+  .nav-links-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+
+  .nav-links-left a {
+    font-size: 16px;
+    padding: 10px 0;
+    float: none;
+  }
+
+  .logo img {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .nav-user-actions {
+    position: relative;
+    left: auto;
+    top: auto;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .navbar {
+    margin-top: 20px;
+  }
+
+  .navbar .nav-item {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .navbar .nav-links {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .topbar {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .nav-links-left a {
+    font-size: 14px;
+  }
+
+  .navbar .nav-links {
+    font-size: 16px;
+  }
+}
+
+.hero-section .image {
+  justify-content: center;
+  align-items: center;
+  margin: 100px 100px 0 270px;
+  border-radius: 12px;
+  z-index: 0;
+  height: 526px;
+  width: 1440px;
+}
+
+.hero-text-container {
+  position: absolute;
+  margin-left: 311px;
+  margin-top: -125px;
+}
+
+.hero-text-container .hero-text {
+  color: white;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 40px;
+}
+
+.hero-text-container .hero-text button {
+  background-color: #fafafa;
+  border: 0;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.hero-text-container .hero-text button a {
+  text-decoration: none;
+  color: black;
+}
+
+.category-section {
+  margin-left: 270px;
+}
+
+.category-section .category-card {
+  display: inline-block;
+  position: relative;
+}
+
+.category-section .category-card img {
+  border-radius: 12px;
+  width: 357px;
+  height: 227px;
+}
+
+.category-section .category-card p {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 12px;
+  color: white;
+  font-size: 32px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 200;
+  line-height: 100%;
+}
+
+.section-title {
+  width: 312px;
+  height: 96px;
+  margin: 70px auto 0;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  color: #76a270;
+}
+
+.section-title span {
+  color: black;
+  font-size: 40px;
+}
+
+.product-list {
+  display: inline-block;
+  margin-left: 300px;
+}
+
+.product-card {
+  display: inline-block;
+  padding: 10px;
+}
+
+.product-list img {
+  width: 302px;
+  height: 400px;
+  margin-top: 24px;
+  border: 0;
+  border-radius: 12px;
+}
+
+.product-card {
+  display: inline-block;
+  padding: 12px 7px 1px 12px;
+}
+
+.product-title p {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.Fiyat p {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  margin-top: 5px;
+}
+
+.Fiyat span {
+  font-size: 20px;
+  color: red;
+  text-decoration: line-through;
+}
+
+.SepetEkle button {
+  background-color: #fafafa;
+  border: 1px solid #12b76a;
+  width: 302px;
+  height: 52px;
+  border-radius: 12px;
+  margin-top: 12px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 200;
+}
+
+.SepetEkle a {
+  text-decoration: none;
+  color: #12b76a;
+}
+
+.product-card .OnSiparis {
+  border-color: #53b1fd;
+}
+
+.product-card .OnSiparis a {
+  color: #53b1fd;
+}
+
+.product-card .Success {
+  background-color: #12b76a;
+}
+
+.product-card .Success a {
+  color: black;
+}
+
+.SeeAll button {
+  margin-left: 780px;
+  width: 361px;
+  height: 64px;
+  background-color: #314642;
+  border: 0;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+
+.SeeAll a {
+  text-decoration: none;
+  color: white;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+}
+.Kampanya {
+  display: block;
+}
+.Kampanya p {
+  margin-top: 60px;
+  font-weight: 300;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #76a270;
+  font-size: 20px;
+  margin-left: 89px;
+}
+
+.Kampanya span {
+  color: black;
+  margin-left: -0px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.Urunler img {
+  margin-left: 232px;
+  width: 710px;
+  border-radius: 12px;
+  margin-top: 60px;
+  height: 500px;
+}
+
+.Urunler .Text p {
+  color: black;
+  margin-left: -1100px;
+  margin-top: -150px;
+  font-size: 30px;
+}
+
+.Urunler .DetayButton2 button {
+  margin-left: 260px;
+  margin-top: 40px;
+  background-color: white;
+  border: 0;
+  border-radius: 30px;
+  width: 150px;
+  height: 47px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: large;
+}
+
+.Urun2 img {
+  width: 710px;
+  height: 500px;
+  border-radius: 12px;
+  margin-left: 1025px;
+  margin-top: -479px;
+  margin-bottom: 0;
+}
+
+.Urun2 .Text p {
+  color: black;
+  margin-left: 420px;
+  margin-top: -150px;
+  font-size: 30px;
+}
+
+.Urun2 .DetayButton button {
+  margin-left: 1050px;
+  margin-top: 40px;
+  background-color: white;
+  border: 0;
+  width: 150px;
+  height: 47px;
+  border-radius: 30px;
+  font-family: "Kumbh sans", sans-serif;
+  font-size: large;
+}
+
+.NewCategories {
+  display: inline-block;
+  margin-left: 230px;
+}
+
+.NewCategories .card {
+  display: inline-block;
+  padding: 2px;
+}
+
+.NewCategories p {
+  margin-top: 80px;
+  margin-left: -210px;
+  text-align: center;
+  color: #76a270;
+  font-size: 25px;
+  font-family: "Kumbh Sans", sans-serif;
+  margin-bottom: 48px;
+}
+
+.NewCategories span {
+  color: black;
+  font-family: "Kumbh Sans";
+  font-size: 30px;
+}
+
+.NewCategories .NewShopping .card img {
+  width: 370px;
+  height: 209px;
+  border-radius: 24px;
+  margin-top: 10px;
+}
+
+.NewCategories .NewShopping .card .CardName p {
+  margin-top: -50px;
+  color: white;
+  margin-left: -200px;
+}
+
+p {
+  text-align: center;
+  justify-content: center;
+  font-size: 23px;
+}
+p > span {
+  font-size: 30;
+}
+
+.container {
+  display: flex;
+  margin-left: 263px;
+  margin-top: 120px;
+}
+
+.container .FastCargo {
+  width: 420px;
+  height: 223px;
+  background: #f6f8f9;
+  border-radius: 12px;
+}
+
+.container .FastCargo svg {
+  margin-left: 50px;
+  margin-top: 80px;
+  width: 70px;
+  height: 70px;
+}
+
+.container .FastCargo .fastext {
+  font-family: "Kumbh Sans";
+  margin-top: -70px;
+  margin-left: 151px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #7180b1;
+  width: 124px;
+  height: 30px;
+}
+
+.container .FastCargo p {
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 150px;
+  text-align: left;
+  font-weight: 300;
+  width: 200px;
+  height: 50px;
+  color: #595959;
+}
+
+.container .Special {
+  width: 420px;
+  height: 223px;
+  background-color: #f9f7f6;
+  margin-left: 60px;
+  border-radius: 12px;
+}
+
+.container .Special svg {
+  margin-left: 50px;
+  margin-top: 80px;
+  width: 70px;
+  height: 70px;
+}
+
+.container .Special .special-title {
+  margin-top: -70px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #b79579;
+  width: 124px;
+  height: 30px;
+  margin-left: 145px;
+}
+
+.container .Special .special-text {
+  font-weight: 300;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  margin-left: 150px;
+  color: #595959;
+  text-align: left;
+}
+
+.container .SafeShop {
+  width: 420px;
+  height: 223px;
+  margin-left: 60px;
+  background: #f6f9f6;
+  border-radius: 12px;
+}
+
+.container .SafeShop svg {
+  margin-left: 50px;
+  margin-top: 80px;
+  width: 70px;
+  height: 70px;
+}
+
+.container .SafeShop .safe-title {
+  margin-left: 70px;
+  margin-top: -70px;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  height: 30px;
+  text-align: left;
+  margin-left: 150px;
+  color: #73b786;
+}
+
+.container .SafeShop .safe-text {
+  font-weight: 300;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  margin-left: 150px;
+  color: #595959;
+  text-align: left;
+}
+
+.footer {
+  background-color: #fafafa; /* Arka plan rengi (koyu gri) */ /* Yazı rengi */
+  padding: 20px 0; /* Üst ve alt boşluk */
+  margin-top: 120px;
+  border: 0.1px solid #E6E6E6;
+}
+
+.footer .line {
+  border: 1px solid #E6E6E6;
+}
+
+.footer .content-text p{
+  text-align: left;
+  margin-left: 5%;
+  font-family: "Kumbh Sans";
+}
+
+.footer .content-text .slogn{
+  -webkit-text-stroke: 1px black;
+  color: transparent;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.footer .content-text .message{
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.footer .content-text .phone{
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.footer .content-text .number{
+  font-weight: 900;
+  color: transparent;
+  font-size: 30px;
+  -webkit-text-stroke: 1px black;
+}
+
+.footer .content-text .email {
+  font-weight:800;
+  font-size:20px;
+  margin-top: 30px;
+}
+
+.footer .content-text .mail{
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.footer .content-text .Copyright{
+  margin-top: 30px;
+}
+
+.content .content-container{
+  display: flex;
+  text-align: center;
+}
+
+.content-container .institutional {
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto;
+  text-align: left;
+  margin-left: 650px;
+  margin-top: 14px;
+}
+
+.content-container .institutional h1{
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  font-weight: 700;
+  font-size: 30px;
+
+}
+
+.content-container .institutional a {
+  color: black;
+  text-decoration: none;
+  padding: 24px 0 0;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.content-container .legal{
+  position: absolute;
+  text-align: left;
+  display: grid;
+  margin-left: 1080px;
+}
+
+.content-container .legal h1{
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+}
+
+.content-container .legal a{
+  color: black;
+  text-decoration: none;
+  padding:24px 0 0;
+  font-size: 20px;
+  font-weight:400 ;
+}
+
+.icons {
+  position: absolute;
+  text-align: right;
+  display: grid;
+  margin-left: 1800px;
+  margin-top: -19%;
+}
+
+.icons svg {
+  margin-top: 22px;
+}
+
+.footer .content-text .payments{
+  text-align: center;
+  margin-top: -2%;
+}
+
+.footer .content-text .biltek{
+  text-align: right;
+  margin-top: -2%;
+  margin-right: 3%;
+}
