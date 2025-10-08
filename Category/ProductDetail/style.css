@@ -99,7 +99,9 @@ body {
 .navbar .nav-links:hover {
   width: 85px;
   height: 85vh;
-  border-radius: 10px;
+  border-radius: 12px;
+  background-color:#D1FADF;
+  padding: 5px 0 5px 0;
 }
 
 /* ============================

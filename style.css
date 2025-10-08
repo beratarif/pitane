@@ -76,10 +76,17 @@ body {
   left: 0;
 }
 
+.group51{
+  position: relative;
+  z-index: 10;
+}
+
 .navbar {
+  position: relative;
   text-align: center;
   margin-top: 108px;
   background-color: #f1f1f1;
+  z-index: 100;
 }
 
 .navbar .nav-item {
@@ -93,12 +100,13 @@ body {
   color: black;
   font-family: "Kumbh Sans", sans-serif;
   width: 12px;
+  padding: 8px 12px;
 }
 
 .navbar .nav-links:hover {
-  width: 85px;
-  height: 85vh;
-  border-radius: 10px;
+  background-color: #D1FADF;
+  padding: 10px 16px;
+  border-radius: 12px;
 }
 
 /* ============================
@@ -219,6 +227,7 @@ body {
   z-index: 0;
   height: 526px;
   width: 1440px;
+  position: relative;
 }
 
 .hero-text-container {
