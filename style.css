@@ -27,31 +27,25 @@ body {
 
 .nav-links-left,
 .nav-section {
-  margin-left: 122px;
-}
-
-.logo img {
   display: flex;
   flex-direction: row;
-  margin-left: 700px;
+  justify-content: center;
+  margin: 4rem 0 23px 0;
+  gap: 17rem;
 }
 
-.nav-links-left a {
-  float: left;
-  margin-left: 12px;
-  padding: 20px;
-  text-align: center;
-  justify-content: center;
-  font-family: "Kumbh Sans", sans-serif;
+.group10{
+  display: flex;
+}
 
+.group10 a{
+  padding: 12px ;
   color: black;
-  font-size: 22px;
 }
 
 .nav-user-actions {
-  position: absolute;
-  left: 1350px;
-  top: 70px;
+  display: flex;
+  gap: 4rem;
   font-family: "Kumbh Sans", sans-serif;
 }
 
@@ -60,29 +54,18 @@ body {
   border: 0;
 }
 
-.language {
-  position: absolute;
-  top: 5px;
-}
-
-.separator-line {
-  position: absolute;
-  color: #fafafa;
-  width: 100%;
-  left: 0;
-}
-
-.group51 {
-  position: relative;
-  z-index: 10;
+.language a{
+  color: black;
+  text-decoration: none;
+  font-size:20px;
+  border: 1px solid;
+  border-radius: 4px;
 }
 
 .navbar {
-  position: relative;
-  text-align: center;
-  margin-top: 108px;
-  background-color: #f1f1f1;
-  z-index: 100;
+  display: flex;
+  background-color:  #f1f1f1;
+  flex-direction: row;
 }
 
 .navbar .nav-item {
@@ -95,7 +78,7 @@ body {
   text-decoration: none;
   color: black;
   font-family: "Kumbh Sans", sans-serif;
-  width: 12px;
+  width: 3rem;
   padding: 8px 12px;
 }
 
@@ -106,20 +89,19 @@ body {
 }
 
 .hero-section .image {
+  display: flex;
+  max-width: 1504px;
+  width: 78%;
+  margin: 8rem 0 0 10rem;
   justify-content: center;
   align-items: center;
-  margin: 100px 100px 0 270px;
   border-radius: 12px;
-  z-index: 0;
-  height: 526px;
-  width: 1440px;
-  position: relative;
 }
 
 .hero-text-container {
   position: absolute;
-  margin-left: 311px;
-  margin-top: -125px;
+  top: 80%;
+  left: 200px;
 }
 
 .hero-text-container .hero-text {
@@ -142,17 +124,16 @@ body {
 }
 
 .category-section {
-  margin-left: 270px;
-}
-
-.category-section .category-card {
-  display: inline-block;
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 2% 160px;
+  flex-wrap: wrap;
+  gap: 100px;
 }
 
 .category-section .category-card img {
   border-radius: 12px;
-  width: 357px;
+  width: 300px;
   height: 227px;
 }
 
@@ -184,13 +165,16 @@ body {
 }
 
 .product-list {
-  display: inline-block;
-  margin-left: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
 }
 
 .product-card {
-  display: inline-block;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 0 0 5rem;
 }
 
 .product-list img {
@@ -262,14 +246,22 @@ body {
   color: black;
 }
 
+.SeeAll{
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+}
+
 .SeeAll button {
-  margin-left: 780px;
-  width: 361px;
-  height: 64px;
-  background-color: #314642;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   border: 0;
-  border-radius: 12px;
-  margin-top: 30px;
+  border-radius:12px;
+  width: 360px;
+  height: 61px;
+  background-color: #314642;
+  justify-content: center;
 }
 
 .SeeAll a {
@@ -278,81 +270,52 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 24px;
   font-weight: 200;
+  text-align: center;
 }
 
-.Kampanya {
-  display: block;
+.kampanya {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px;
 }
 
-.Kampanya p {
-  margin-top: 60px;
+.kampanya p {
   font-weight: 300;
   font-family: "Kumbh Sans", sans-serif;
   color: #76a270;
   font-size: 20px;
-  margin-left: 89px;
+  text-align: center;
 }
 
-.Kampanya span {
+.kampanya span {
   color: black;
   margin-left: -0px;
   font-weight: 500;
   font-size: 30px;
 }
 
-.Urunler img {
-  margin-left: 232px;
-  width: 710px;
-  border-radius: 12px;
-  margin-top: 60px;
-  height: 500px;
+.urunler{
+  display: flex;
+  flex-direction:row;
 }
 
-.Urunler .Text p {
-  color: black;
-  margin-left: -1100px;
-  margin-top: -150px;
-  font-size: 30px;
+.urunler img {
+  width: 40%;
+}
+ 
+.urunler .text p{
+  position: absolute;
+  top: 570%;
+  left: 720px;
+  color: white;
 }
 
-.Urunler .DetayButton2 button {
-  margin-left: 260px;
-  margin-top: 40px;
-  background-color: white;
-  border: 0;
-  border-radius: 30px;
-  width: 150px;
-  height: 47px;
-  font-family: "Kumbh Sans", sans-serif;
-  font-size: large;
-}
-
-.Urun2 img {
-  width: 710px;
-  height: 500px;
-  border-radius: 12px;
-  margin-left: 1025px;
-  margin-top: -479px;
-  margin-bottom: 0;
-}
-
-.Urun2 .Text p {
-  color: black;
-  margin-left: 420px;
-  margin-top: -150px;
-  font-size: 30px;
-}
-
-.Urun2 .DetayButton button {
-  margin-left: 1050px;
-  margin-top: 40px;
-  background-color: white;
-  border: 0;
-  width: 150px;
-  height: 47px;
-  border-radius: 30px;
-  font-family: "Kumbh sans", sans-serif;
-  font-size: large;
+.urunler .text2{
+  position: absolute;
+  left: 50px;
+  top: 570px;
+  color: white;
 }
 
 .NewCategories {
