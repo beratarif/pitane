@@ -336,6 +336,8 @@ input[type="radio"] {
 }
 
 /* Ürün kartı */
+.product-image
+
 .product-card {
   background-color: #fff;
   text-align: left;
