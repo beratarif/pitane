@@ -123,34 +123,3 @@
   margin-top: 2%;
   font-size: 20px;
 }
-
-@media screen and (max-width: 360px) {
-  .hamburger {
-    display: flex;
-    font-size: 36px;
-    color: black;
-  }
-
-  .footer {
-    display: grid;
-    width: 355px;
-  }
-
-  .footer .line {
-    display: none;
-  }
-
-  .footer .institutional {
-    display: grid;
-  }
-
-  .footer .icons {
-    display: flex;
-    gap: 5%;
-  }
-
-  .copyright {
-    align-items: center;
-    padding: 1%;
-  }
-}

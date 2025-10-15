@@ -49,8 +49,8 @@ body {
 .category-section {
   display: flex;
   flex-direction: row;
-  margin: 2% 320px;
-  gap: 12px;
+  margin: 2% 34vh;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 
@@ -288,12 +288,13 @@ body {
 .NewCategories {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 0 0 2rem;
+  margin: 0 0 0 12rem;
   justify-content: center;
 }
 
 .NewCategories .card {
   display: inline-block;
+  gap: 20rem;
   padding: 2px;
   flex-wrap: wrap;
 }
@@ -314,7 +315,7 @@ body {
 
 .NewCategories .NewShopping .card img {
   width: 300px;
-  height: 100px;
+  height: 200px;
   border-radius: 24px;
   margin-top: 10px;
 }
@@ -322,7 +323,7 @@ body {
 .NewCategories .NewShopping .card .CardName p {
   margin-top: -50px;
   color: white;
-  margin-left: -200px;
+  margin-left: -150px;
 }
 
 /* Container */
