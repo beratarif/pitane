@@ -1,0 +1,347 @@
+@media screen and (max-width:767px) {
+
+  body {
+    padding-top: 140px;
+  }
+
+  .hero-section .image {
+    display: flex;
+    margin: 0 0 12px 0;
+    width: 360px;
+    height: 227px;
+    z-index: 1;
+  }
+
+  .hero-text-container {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 20px;
+  }
+
+  .hero-text-container p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .hero-text-container .hero-text button {
+    display: none;
+  }
+
+  .category-section {
+    margin: 0;
+    width: 360px;
+  }
+
+  .category-section .category-card img {
+    border-radius: 12px;
+    width: 360px;
+    height: 227px;
+  }
+
+  .product-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .SeeAll button {
+    border-radius: 12px;
+  }
+
+  .kampanya {
+    display: none;
+  }
+
+  .NewCategories {
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+    margin: 0;
+  }
+
+  .NewCategories .card {
+    display: inline-block;
+    padding: 2px;
+    margin: 10px;
+  }
+
+  .NewCategories p {
+    margin: 0;
+    color: #76a270;
+    font-size: 25px;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+
+  .NewCategories span {
+    color: black;
+    font-family: "Kumbh Sans";
+    font-size: 30px;
+  }
+
+  .NewCategories .NewShopping .card img {
+    width: 370px;
+    height: 209px;
+    border-radius: 24px;
+    margin-top: 10px;
+  }
+
+  .NewCategories .NewShopping .card .CardName p {
+    margin-top: -50px;
+    color: white;
+    margin-left: -200px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+  }
+
+  .container .FastCargo {
+    width: 355px;
+    height: 223px;
+    background: #f6f8f9;
+    border-radius: 12px;
+
+  }
+
+  .container .FastCargo svg {
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .container .FastCargo .fastext {
+    font-family: "Kumbh Sans";
+    margin-top: -70px;
+    margin-left: 151px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #7180b1;
+    width: 124px;
+    height: 30px;
+  }
+
+  .container .FastCargo p {
+    font-family: "Kumbh Sans";
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 150px;
+    text-align: left;
+    font-weight: 300;
+    width: 200px;
+    height: 50px;
+    color: #595959;
+  }
+
+  .container .Special {
+    width: 355px;
+    height: 223px;
+    background-color: #f9f7f6;
+    border-radius: 12px;
+    margin: 0;
+  }
+
+  .container .Special svg {
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .container .Special .special-title {
+    margin-top: -70px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #b79579;
+    width: 124px;
+    height: 30px;
+    margin-left: 145px;
+  }
+
+  .container .Special .special-text {
+    font-weight: 300;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-left: 150px;
+    color: #595959;
+    text-align: left;
+  }
+
+  .container .SafeShop {
+    width: 355px;
+    height: 223px;
+    background: #f6f9f6;
+    border-radius: 12px;
+    margin: 0;
+  }
+
+  .container .SafeShop svg {
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .container .SafeShop .safe-title {
+    margin-left: 70px;
+    margin-top: -70px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    height: 30px;
+    text-align: left;
+    margin-left: 150px;
+    color: #73b786;
+  }
+
+  .container .SafeShop .safe-text {
+    font-weight: 300;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-left: 150px;
+    color: #595959;
+    text-align: left;
+  }
+
+  /* NAVBAR VE FOOTER  */
+
+  .mobile-navbar.show {
+    display: flex;
+    position: relative;
+    left: 0;
+    width: 180px;
+    height: 600px;
+    padding: 0 20px 49rem 40px;
+    text-align: left;
+    flex-direction: column;
+    background-color: white;
+    z-index: 999;
+    border-radius: 0px 12px 12px 0px;
+  }
+
+  .mobile-navbar {
+    list-style: none;
+  }
+
+  .mobile-navbar.show a {
+    display: flex;
+    background-color: white;
+    z-index: 999;
+    margin-top: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #666;
+  }
+
+  .mobile-navbar.show a:hover {
+    background-color: #D1FADF;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  }
+
+  .nav-links-left,
+  .nav-section {
+    display: sticky;
+    flex-direction: row;
+    font-family: "Kumbh Sans";
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .header-container .topbar {
+    display: none;
+  }
+
+  .nav-user-actions .language {
+    display: none;
+  }
+
+  .nav-user-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .topbar p {
+    display: none;
+    background-color: none;
+  }
+
+  .group10 {
+    display: none;
+  }
+
+  .header-container .logo img {
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    font-size: 36px;
+    color: black;
+  }
+
+  .footer {
+    display: grid;
+    width: 355px;
+  }
+
+  .footer .line {
+    display: none;
+  }
+
+  .footer .institutional {
+    display: grid;
+  }
+
+  .page-scowbar svg {
+    display: flex;
+    margin: 5px 0 0 250px;
+  }
+
+  .footer .icons {
+    display: flex;
+    gap: 5%;
+  }
+
+  .copyright {
+    align-items: center;
+    padding: 1%;
+  }
+}
+
+/* Tablet */
+@media (min-width:768px) and (max-width:1023px) {}
+
+/* Küçük Pc */
+@media (min-width:1024px) and (max-width:1279px) {}
+
+/* Büyük Pc */
+@media (min-width:1280px) {
+
+}

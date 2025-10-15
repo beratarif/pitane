@@ -12,6 +12,7 @@ body {
   width: 100%;
   max-width: 1920px;
   height: 140px;
+
 }
 
 .topbar {
@@ -25,21 +26,31 @@ body {
 
 .nav-links-left,
 .nav-section {
-  margin-left: 122px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 4rem 0 23px 0;
+  gap: 17rem;
+  font-family: "Kumbh Sans";
+
 }
 
-/* .logo img {} */
+.group10 {
+  display: flex;
+}
 
-.nav-links-left a {
-  float: left;
-  margin-left: 12px;
-  padding: 20px;
-  text-align: center;
-  justify-content: center;
-  font-family: "Kumbh Sans", sans-serif;
-  text-decoration: none;
+.group10 a {
+  padding: 12px;
   color: black;
-  font-size: 22px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.nav-user-actions {
+  display: flex;
+  gap: 4rem;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .nav-user-actions button {
@@ -47,17 +58,19 @@ body {
   border: 0;
 }
 
-.separator-line {
-  position: absolute;
-  color: #fafafa;
-  width: 100%;
-  left: 0;
+.language a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 4px;
 }
 
 .navbar {
-  text-align: center;
-  margin-top: 108px;
+  display: flex;
   background-color: #f1f1f1;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .navbar .nav-item {
@@ -70,13 +83,14 @@ body {
   text-decoration: none;
   color: black;
   font-family: "Kumbh Sans", sans-serif;
-  width: 12px;
+  width: 3rem;
+  padding: 8px 12px;
 }
 
 .navbar .nav-links:hover {
-  width: 85px;
-  height: 85vh;
-  border-radius: 10px;
+  background-color: #D1FADF;
+  padding: 10px 16px;
+  border-radius: 12px;
 }
 
 .navbar.show {
@@ -85,7 +99,7 @@ body {
 
 .road {
   display: flex;
-  margin: 5rem 0 0 15rem;
+  margin: 6rem 0 0 15rem;
   color: #595959;
 }
 
@@ -303,8 +317,7 @@ input[type="radio"] {
 
 .footer .line {
   border: 1px solid #E6E6E6;
-  width: 550%;
-  margin: 0 45rem 0 -20rem;
+  display: flex;
 }
 
 .content .content-container {

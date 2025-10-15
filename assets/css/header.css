@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Kumbh Sans", Arial, sans-serif;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1920px;
+  height: 140px;
+}
+
+.topbar {
+  text-align: center;
+  background-color: #ebebeb;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links-left,
+.nav-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 4rem 0 23px 0;
+  gap: 17rem;
+  font-family: "Kumbh Sans";
+
+}
+
+.group10 {
+  display: flex;
+}
+
+.group10 a {
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.nav-user-actions {
+  display: flex;
+  gap: 4rem;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.nav-user-actions button {
+  background-color: transparent;
+  border: 0;
+}
+
+.language a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.navbar {
+  display: flex;
+  background-color: #f1f1f1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar .nav-item {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+.navbar .nav-links {
+  text-decoration: none;
+  color: black;
+  font-family: "Kumbh Sans", sans-serif;
+  width: 3rem;
+  padding: 8px 12px;
+}
+
+.navbar .nav-links:hover {
+  background-color: #D1FADF;
+  padding: 10px 16px;
+  border-radius: 12px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.5s linear;
+  z-index: 998;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.backdrop.show {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Gözükmeyecekler */
+.mobile-navbar {
+  display: flex;
+  position: relative;
+  left: -400px;
+  width: 180px;
+  height: 600px;
+  padding: 0 20px 49rem 30px;
+  text-align: left;
+  flex-direction: column;
+  background-color: white;
+  z-index: 999;
+  border-radius: 0px 12px 12px 0px;
+  transition: left 0.5s linear;
+  list-style: none;
+}
+
+
+.mobile-navbar a {
+  display: flex;
+  background-color: white;
+  z-index: 999;
+  margin-top: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #666;
+}

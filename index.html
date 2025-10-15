@@ -5,14 +5,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pitane</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="assets/css/header.css" />
+  <link rel="stylesheet" href="assets/css/footer.css"">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/all-media.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="">
   <div class="header-container">
     <div class="topbar">
       <p>"Tüm siparişlerde %10 indirim! Sepette otomatik uygulanır."</p>
@@ -27,6 +30,13 @@
         <img src="logo.svg" alt="" />
       </div>
       <div class="nav-user-actions">
+        <div id="hamburger" class="hamburger">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.49687 22.167L23.3333 22.167M23.3328 14.0003L4.66663 14.0003M23.3333 5.83366L15.1338 5.83366"
+              stroke="#363853" stroke-width="1.5" stroke-linecap="round" />
+          </svg>
+
+        </div>
         <button type="button" class="">
           <a href="./uye-giris" aria-label="Giriş Yap">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
@@ -86,7 +96,22 @@
           <li class="nav-item"><a href="#" class="nav-links">Vazo Ayna</a></li>
           <li class="nav-item"><a href="#" class="nav-links">Kahve Seti</a></li>
         </ul>
+        <ul id="mobile-navbar" class="mobile-navbar">
+          <li class="nav-item"><a class="nav-links" href="Category/index.html">Yüzük</a></li>
+          <li class="nav-item"><a href="#" class="nav-links">Kolye</a></li>
+          <li class="nav-item"><a href="#" class="nav-links">Broş</a></li>
+          <li class="nav-item"><a href="#" class="nav-links">Bileklik</a></li>
+          <li class="nav-item"><a href="#" class="nav-links">Küpe</a></li>
+          <li class="nav-item"><a href="#" class="nav-links">Kahve Seti</a></li>
+          <li class="nav-item"><a href="#" class="nav-links">Tabak Kase</a></li>
+          <li class="nav-item"><a href="#" class="nav-links">Fincan</a></li>
+          <li class="nav-item"><a href="#" class="nav-links">Mug</a></li>
+          <li class="nav-item"><a href="#" class="nav-links">Bileklik</a></li>
+          <li class="nav-item"><a href="#" class="nav-links">Vazo Ayna</a></li>
+          <li class="nav-item"><a href="#" class="nav-links">Kahve Seti</a></li>
+        </ul>
       </nav>
+      <div class="backdrop" id="backdrop"></div>
     </div>
   </div>
   <div class="hero-section">
@@ -612,6 +637,7 @@
       </div>
     </div>
   </div>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
